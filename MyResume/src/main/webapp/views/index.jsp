@@ -10,13 +10,14 @@
 }
 .body{
     background-image: url("Background.jpg");
+    background-color:darkcyan;
 }
 .A1{
     /*text-align: center;*/
     justify-content: center;
     background-color: rgba(30,39,39,0.3);
     box-shadow: 0 5px 30px black;
-    color:crimson;
+    color:black;
     margin-bottom: 10px;
     margin-top: 10px;
     font-size: 14px;
