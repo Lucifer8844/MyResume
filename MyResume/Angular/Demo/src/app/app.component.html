@@ -1,0 +1,168 @@
+<app-header></app-header>
+<html>
+<head>
+
+	<!-- <meta http-equiv="content-type" content="text/html; charset=utf-8" /> -->
+	<link rel="stylesheet" type="text/css" href="http://yui.yahooapis.com/2.7.0/build/reset-fonts-grids/reset-fonts-grids.css" media="all" /> 
+	
+</head>
+<body>
+
+<div id="doc2" class="yui-t7">
+	<div id="inner">
+	
+		<div id="hd">
+			<div class="yui-gc">
+				<div class="yui-u first">
+					<h1>{{ resumelist.name }}</h1>
+					<h2>{{ resumelist.title }}</h2>
+				</div>
+
+				<div class="yui-u">
+					<div class="contact-info">
+						<h3><a href="mailto:sudarshan.com">{{ resumelist.url }}</a></h3>
+						<h3>{{ resumelist.phone }}</h3>
+						<h3>{{ resumelist.email }}</h3>
+						<img src="{{ resumelist.imgurl }}" height="140" width="120">
+					</div><!--// .contact-info -->
+				</div>
+			</div><!--// .yui-gc -->
+		</div><!--// hd -->
+
+		<div id="bd">
+			<div id="yui-main">
+				<div class="yui-b">
+
+					<div class="yui-gf">
+						<div class="yui-u first">
+							<h2>Profile</h2>
+						</div>
+						<div class="yui-u">
+							<p class="enlarge">
+								{{ resumelist.introduction }}
+							</p>
+						</div>
+					</div><!--// .yui-gf -->
+
+					<div class="yui-gf">
+						<div class="yui-u first">
+							<h2>Education</h2>
+						</div>
+						<div class="yui-u">
+							<div class="talent">
+								<h2>Bachelor Degree</h2>
+								<p>{{ resumelist.education.bachelor }}</p>
+							</div>
+							<div class="talent">
+								<h2>Higher Secondary</h2>
+								<p>{{ resumelist.education.hsecondary }}</p>
+							</div>
+							<div class="talent">
+								<h2>Secondary</h2>
+								<p>{{ resumelist.education.secondary }}</p>
+							</div>
+						</div>
+					</div><!--// .yui-gf -->
+
+					<div class="yui-gf">
+						<div class="yui-u first">
+							<h2>Technical</h2>
+						</div>
+						<div class="yui-u">
+							<ul class="talent">
+								<li>FrontEnd</li>
+								<li>{{ resumelist.skills.web }}</li>
+								<li class="last">Javascript</li>
+							</ul>
+
+							<ul class="talent">
+								<li>Backend</li>
+								<li>{{ resumelist.skills.back }}</li>
+							</ul>
+
+							<ul class="talent">
+								<li>Languages</li>
+								<li>{{ resumelist.skills.language }}</li>
+							</ul>
+						</div>
+					</div><!--// .yui-gf-->
+
+					<div class="yui-gf">
+						<div class="yui-u first">
+							<h2>Projects</h2>
+						</div><!--// .yui-u -->
+						<div class="yui-u">
+							<div class="job">
+								<h2><strong>Project 1</strong></h2>
+								<h3>{{ resumelist.projects.Projectname1 }}</h3>
+								<p>{{ resumelist.projects.description1 }}</p>
+							</div>
+							<div class="job">
+								<h2><Strong>Project 2</Strong></h2>
+								<h3>{{ resumelist.projects.Projectname2 }}</h3>
+								<p>{{ resumelist.projects.description2 }}</p>
+							</div>
+						</div><!--// .yui-u -->
+					</div><!--// .yui-gf -->
+
+					<div class="yui-gf last">
+						<div class="yui-u first">
+							<h2>Certification</h2>
+						</div>
+						<div class="yui-u">
+							<li>{{ resumelist.Certification.c1 }}</li>
+							<li>{{ resumelist.Certification.c2 }}</li>
+							<li>{{ resumelist.Certification.c3 }}</li>
+							<li>{{ resumelist.Certification.c4 }}</li>
+						</div>
+					</div>
+				</div><!--// .yui-b -->
+			</div><!--// yui-main -->
+		</div><!--// bd -->
+		<!-- <div id="ft">
+			<p>Jonathan Doe &mdash; <a href="mailto:name@yourdomain.com">name@yourdomain.com</a> &mdash; (313) - 867-5309</p>
+		</div> -->
+	</div><!-- // inner -->
+</div><!--// doc -->
+</body>
+</html>
+
+
+
+
+
+<!-- <div class="container">  
+    
+  <h1> Student Attandance </h1>  
+    
+  <table class="table table-striped">  
+    <thead>  
+        <tr>  
+           
+          <th>Name</th>  
+          <th>Attendance</th>  
+          
+        </tr>  
+    </thead>  
+    <tbody>  
+      <tr *ngFor="let student of students">  
+       
+        <td>{{ student.name }}</td>  
+        <td>{{ student.attendance }}</td>  
+        
+      </tr>  
+    </tbody>  
+  </table>
+  </div> -->
+  <!-- <app-resume></app-resume> -->
+
+
+  <!-- <ng-container *ngFor="let resume of resumelist">   -->
+       
+	<!-- <li>{{ resumelist.name }}</li>   -->
+	<!-- <li>{{ student.attendance }}</li>   -->
+	
+  <!-- </ng-container>   -->
+
+    <!-- console.log(resumelist[0]); -->
+  <app-footer></app-footer>

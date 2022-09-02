@@ -1,0 +1,17 @@
+{
+  "name":"Sudarshan Banerjee",
+  "title":"Software Developer",
+  "imgurl":"assets/photo.jpg",
+  "url":"https://www.sudarshan.com",
+  "email":"sudarshan@virtusa.com",
+  "phone":"70018941**",
+  "introduction":"Progressively evolve cross-platform ideas before impactful infomediaries. Energistically visualize tactical initiatives before cross-media catalysts for change. ",
+  "skills":{"web":"HTML,CSS,JS,Angular","back":"SpringBoot","language":"C,C++,JAVA,PYTHON,DOTNET"},
+  "Certification":{"c1":"CEH(Certified Ethical Hacking)","c2":"TOTAL: CompTIA Security+ Certification","c3":"Web Hacking","c4":"Web App PenTester"},
+  "projects":{"Projectname1":"Movie Booking Application Using DOT NET","description1":"It tracks all the information of booking ,payment ,seats.Various DBMS level of access is given according to the user(Administrative, Single User). There are different levels of schemas.All the fields are validated, invalid values are rejected.Editing, adding and updating of records are maintained which results in proper resource management of seats.It stores the data in encrypted format ,so no security breaches."
+,"Projectname2":"Pixel Classification of Remote Sensing Images Using Machine learning","description2":"In pixel-based classification, individual image pixels are analysed by the spectral information that they contain (Richards, 1993). This is the traditional approach to classification since the pixel is the fundamental (spatial) unit of a satellite image, and consequently it comes naturally and is often easy to implement. Various schemes are in use in pixel-based classification. Maximum-likelihood, Minimum-distance-to-mean, and Minimum-Mahalanobis-distance are three of these. One assumes that the classes have been statistically characterized, so, for instance, their means and variances are known. The three schemes all use some notion of “distance” to the mean of the class to decide which class to assign pixels."},
+  "education":{"secondary":"D.A.V PUBLIC SCHOOL, ASANSOL. CGPA=9.5","bachelor":"ASANSOL ENGINEERING COLLEGE, ASANSOL, GPA=9.0","hsecondary":"D.A.V PUBLIC SCHOOL, ASANSOL. CGPA=8.5, Project=Gamming website"}
+}
+
+
+
